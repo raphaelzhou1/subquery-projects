@@ -23,3 +23,19 @@ type DailyAggregation @entity {
   highPriceUSD: Float!
   lowPriceUSD: Float!
 }
+
+
+type SparrowswapSpotPrice @entity {
+  id: ID! # Blockheight-contractaddress
+  blockHeight: BigInt!
+  timestamp: Date!
+  txHash: String!
+  contractAddress: String!
+  offerAsset: String
+  askAsset: String
+  offerAmount: Float
+  returnAmount: Float
+  spreadAmount: Float
+  commissionAmount: Float
+  rumPriceToSei: Float
+}

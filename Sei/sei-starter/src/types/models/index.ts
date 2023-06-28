@@ -6,3 +6,5 @@ export {ExchangeRate} from "./ExchangeRate"
 
 export {DailyAggregation} from "./DailyAggregation"
 
+export {SparrowswapSpotPrice} from "./SparrowswapSpotPrice"
+
