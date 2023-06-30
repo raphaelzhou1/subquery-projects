@@ -22,8 +22,6 @@ network:
   endpoint:
     [
       "https://rpc-sei-testnet.rhinostake.com/",
-      "https://rpc.atlantic-2.seinetwork.io/",
-      "https://sei-testnet-2-rpc.brocha.in/",
     ]
   # Optionally provide the HTTP endpoint of a full chain dictionary to speed up processing
   dictionary: "https://api.subquery.network/sq/subquery/cosmos-sei-dictionary"
